@@ -1,12 +1,14 @@
 // Notes for Redux State Management 
 // 1. Store
-// 2. Reducer
+// 2. Reducer --> function to change store
 // 3. Dispatching Action
 // 4. Subscription
 
 const redux = require('redux');
 const createStore = redux.createStore;
 
+
+// untuk initial state in Reducer 
 const initialState = {
     value: 0,
     age: 17
